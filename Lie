@@ -1,0 +1,240 @@
+("devices.dml" 
+ (LibraryVersion 136.2 ) ) 
+Date and Time : 01/27/25 19:22:22
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+(ExpressProject "LieDetector_proiectCAD_424G"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\liedetector_proiectcad_424g.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "allegro\LIEDETECTOR_PROIECTCAD_424G.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "allegro\LIEDETECTOR_PROIECTCAD_424G.brd")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\STANN\ONEDRIVE\DESKTOP\LIE\LIEDETECTOR_PROIECTCAD_424G.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "0")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File
+       "C:\USERS\STANN\ONEDRIVE\DESKTOP\LIE\LIEDETECTOR_PROIECTCAD_424G.XRF")
+    (Crossref__Outputtype "0")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\liedetector_proiectcad_424g.drc"
+      (Type "Report"))
+    (File ".\liedetector_proiectcad_424g.xrf"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "stann")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LF356
+      (FullPartName "LF356.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\stann\onedrive\desktop\lie\liedetector_proiectcad_424g.dsn")
+      (Path "Design Resources"
+         "c:\users\stann\onedrive\desktop\lie\liedetector_proiectcad_424g.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\stann\onedrive\desktop\lie\liedetector_proiectcad_424g.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Outputs"
+         "c:\users\stann\onedrive\desktop\lie\allegro\pstxprt.dat"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 2409 234 923"))
+      (Path "c:\users\stann\onedrive\desktop\lie\allegro\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 2357 182 871"))
+      (Path "c:\users\stann\onedrive\desktop\lie\allegro\pstxnet.dat")
+      (Scroll "132"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 2305 130 819"))
+      (Path
+         "c:\users\stann\onedrive\desktop\lie\liedetector_proiectcad_424g.drc")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 2249 78 763")
+        (Scroll "-406 0")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\STANN\ONEDRIVE\DESKTOP\LIE\LIEDETECTOR_PROIECTCAD_424G.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 2383 208 897"))
+      (Path "c:\users\stann\onedrive\desktop\lie\allegro\pstchip.dat")
+      (Scroll "84"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 2331 156 845"))
+      (Path
+         "c:\users\stann\onedrive\desktop\lie\liedetector_proiectcad_424g.xrf")
+      (Scroll "0")))
+  (ISPCBBASICLICENSE "false"))
+
+Lie Detector  Revised: Monday, January 27, 2025
+Stan Nicolas Alexandru    Stan Alexandru Gabriel          Revision: 
+
+
+
+
+
+
+
+Design Name:  C:\USERS\STANN\ONEDRIVE\DESKTOP\LIE\LIEDETECTOR_PROIECTCAD_424G.DSN
+
+Cross Reference          January 27,2025      19:29:58	Page1
+
+Item	Part	Reference	SchematicName	Sheet	Library
+____________________________________________________________________________
+
+1	1M	R2	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+2	1N4148	D1	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+3	1N4148	D2	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+4	3.3K	R3	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+5	9V	BT3	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+6	9V	BT4	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+7	10K	P1	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+8	10K	R4	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+9	10M	R5	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+10	47K	R1	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+11	100n	C1	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+12	470N	C2	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+13	470N	C3	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB	
+14	CON2	J1	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB	
+15	CON2	J2	SCHEMATIC1/PAGE1	1	C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB	
+16	LF356	IC1	SCHEMATIC1/PAGE1	1	C:\USERS\HOME\DESKTOP\LIEDETECTOR_PROIECTCAD_424G.DSN	
+17	LF356	IC2	SCHEMATIC1/PAGE1	1	C:\USERS\HOME\DESKTOP\LIEDETECTOR_PROIECTCAD_424G.DSN	
